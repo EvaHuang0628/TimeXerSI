@@ -1,0 +1,19 @@
+# IDE & OS caches
+.idea/
+.vscode/
+.DS_Store
+*.swp
+.ipynb_checkpoints/
+~
+
+# Python caches
+__pycache__/
+*.pyc
+
+# Data & Results (保持本地有数据，但不上云)
+dataset/*
+!dataset/.gitkeep  # 这一行意思是：忽略dataset下所有内容，但保留.gitkeep
+results/
+logs/
+checkpoints/
+test_results/
